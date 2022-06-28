@@ -1,0 +1,67 @@
+// IMPORTS
+@import 'header';
+@import 'main';
+@import 'variables';
+@import 'fonts';
+@import 'footer';
+
+// EACH
+@each $color in blue,red,yellow,green,purple, white, black{
+    .#{$color}{
+        color:#{$color};
+    }
+}
+
+// EXTENDS
+.caja {
+    width: 500px;
+    height: 200px;
+}
+
+.caja--rosa {
+    @extend .caja;
+    background-color: pink;
+    box-shadow: 0 0 5px black;
+}
+
+.caja--violeta {
+    @extend .caja;
+    background-color: purple;
+    box-shadow: 0 0 5px black;
+}
+
+// MIXINS
+@mixin cajitas($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.caja--roja {
+    @include cajitas(700px, 200px);
+    background-color: red;
+    box-shadow: 0 0 5px black;
+}
+
+.caja--celeste {
+    @include cajitas(500px, 150px);
+    background-color: cyan;
+    box-shadow: 0 0 5px black;
+}
+
+// MAPS
+$redes:(
+    twitter: cyan,
+    facebook: blue,
+    mail: orange,
+    instagram: purple,
+);
+
+// EACH con MAPs
+@each $nombre, $valor in $redes {
+    .boton-#{$nombre} {
+        background-color: $valor;
+    }
+}
+
+
+

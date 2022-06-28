@@ -1,0 +1,23 @@
+.bg-fixed {
+    padding-left: 10px;
+    background-color: rgb(255, 203, 233);
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 5px black;
+}
+
+#background {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.velog.io/images/smat91/post/e1ae5c1d-47b9-4cd1-b7d5-f1c838741306/scss.jpeg');
+    height: 50vh * 2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        text-align: center;
+        padding: 210px + 220px;
+        font-weight: bold;
+        font-size: 70px;
+        text-shadow: 0 0 10px pink;
+    }
+}
+

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 200, 210);
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+div {
+    h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    }
+    p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 17px;
+        font-family: 'Poppins';
+    }
+}

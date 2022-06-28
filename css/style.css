@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+.bg-fixed {
+  padding-left: 10px;
+  background-color: rgb(255, 203, 233);
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 5px black;
+}
+
+#background {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images.velog.io/images/smat91/post/e1ae5c1d-47b9-4cd1-b7d5-f1c838741306/scss.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#background h1 {
+  text-align: center;
+  padding: 430px;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 0 0 10px pink;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 200, 210);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+div h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+div p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: "Poppins";
+}
+
+.footer {
+  display: inline;
+  text-align: center;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.purple {
+  color: purple;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.caja, .caja--violeta, .caja--rosa {
+  width: 500px;
+  height: 200px;
+}
+
+.caja--rosa {
+  background-color: pink;
+  box-shadow: 0 0 5px black;
+}
+
+.caja--violeta {
+  background-color: purple;
+  box-shadow: 0 0 5px black;
+}
+
+.caja--roja {
+  width: 700px;
+  height: 200px;
+  background-color: red;
+  box-shadow: 0 0 5px black;
+}
+
+.caja--celeste {
+  width: 500px;
+  height: 150px;
+  background-color: cyan;
+  box-shadow: 0 0 5px black;
+}
+
+.boton-twitter {
+  background-color: cyan;
+}
+
+.boton-facebook {
+  background-color: blue;
+}
+
+.boton-mail {
+  background-color: orange;
+}
+
+.boton-instagram {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */
